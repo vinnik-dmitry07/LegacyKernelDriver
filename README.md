@@ -9,11 +9,11 @@
         - Run the VM using .vbox file
     2. *OR*
     3. **Create it yourself**:
-        - Install last image of Windows 10 x64 on the VM
+        - Install the last image of Windows 10 x64 on the VM
         - Setup the VM network:
-        - **Tip:** You can always swich language to English in VirtualBox settings
+        - **Tip:** You can always switch language to English in VirtualBox settings
         - Go to *Oracle VM Virtual Box Manager* (main window)
-        - Select your machine in the left side
+        - Select your machine on the left side
         - Go to *Settings > Network*
         - Choose *Attached to: Host-only adapter*
         - Select *Adapter 2* tab
@@ -30,7 +30,7 @@
         - Execute the command as admin: *REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter" /v DEFAULT /t REG_DWORD /d 0xF*
         [Description why](HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter "Description why")
       - Copy *..\Windows Kits\10\Debuggers\x64\kdnet.exe* from to host computer to the VM
-      - Run *kdnet* - execute the command : *kdnet 192.168.56.1 53000*
+      - Run *kdnet* - execute the command: *kdnet 192.168.56.1 53000*
 4. On the VM:
 	- Execute the command as admin: *bcdedit /dbgsettings*
 	- Copy the *key* somewhere
@@ -43,7 +43,7 @@
 	- Select *Driver Path: C:\Users\WDKRemoteUser\Desktop\Legacy.sys*
 	- Ignoring warnings click *Stop Service*, *Unregister Service*
 	- Click *Register Service*
-	- Click *Start Service* as result you will see this in WinDbg:
+	- Click *Start Service*, as a result, you will see this in WinDbg:
 	![Result 1](Result&#32;1.png)
-	- Click *Stop Service* as result you will see this in WinDbg:
+	- Click *Stop Service*, as a result, you will see this in WinDbg:
 	![Result 2](Result&#32;2.png)
