@@ -4,7 +4,7 @@
 2. Install Oracle VM VirtualBox
 3. 
 	1. **Use ready** virtual machine (VM):
-		- Download from [link](https://mega.nz/#!eIAGxYhY!Y1yOnsnTl6WYUL3rqqLZ_bU77bapbYUQp_KmssuKPhw "link")
+		- Download from [link](https://mega.nz/#!rJwSAYRA!l-YGqnSmLzNXeu5EJ8TwR0efprQJ89b09nx7kh2uBwU "link")
 		- Extract it somewhere
 		- Run the VM using .vbox file
 	2. *OR*
