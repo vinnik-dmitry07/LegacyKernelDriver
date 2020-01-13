@@ -29,7 +29,7 @@
         - Click *OK*
         - Execute the command as admin: *REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter" /v DEFAULT /t REG_DWORD /d 0xF*
         [Description why](HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter "Description why")
-      - Copy * ..\Windows Kits\10\Debuggers\x64\kdnet.exe* from to host computer to the VM
+      - Copy *..\Windows Kits\10\Debuggers\x64\kdnet.exe* from to host computer to the VM
       - Run *kdnet* - execute the command : *kdnet 192.168.56.1 53000*
 4. On the VM:
 	- Execute the command as admin: *bcdedit /dbgsettings*
