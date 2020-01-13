@@ -31,7 +31,7 @@
 		- Enter *Subnet mask: 255.255.255.0*
 		- Click *OK*
 		- Execute the command as admin: *REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter" /v DEFAULT /t REG_DWORD /d 0xF*
-		[Description why](HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter "Description why")
+		([Description why](https://github.com/vinnik-dmitry07/LegacyWindowsKernelDriver "Description why"))
 		- Drug and drop *..\Windows Kits\10\Debuggers\x64\kdnet.exe* and *VerifiedNICList.xml* from the same folder of host computer to the VM
 		- Run *kdnet* - execute the command as admin: *kdnet 192.168.56.1 50000*
 		- Reload VM's Windows - execute the command: *shutdown -r -t 0*
