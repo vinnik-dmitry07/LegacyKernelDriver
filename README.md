@@ -1,4 +1,7 @@
 # LegacyKernelDriver
+A simple legacy driver that sends the "Hello there!" message to the kernel debugger.
+
+## Steps
 1. Download and install  [WDK](https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk "WDK") corresponding version of Windows
 - **Tip:** to open *Command Prompt* as administrator press WIN + R, enter *cmd*, press Ctrl + Shift + Enter
 2. Install Oracle VM VirtualBox
