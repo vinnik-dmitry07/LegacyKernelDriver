@@ -1,4 +1,5 @@
-# LegacyKernelDriver
+# legacy-windows-kernel-driver
+
 A simple legacy driver that sends the "Hello there!" message to the kernel debugger.
 
 ## Steps
